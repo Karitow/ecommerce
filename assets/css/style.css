@@ -1,0 +1,147 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color:rgb(252, 172, 198);
+}
+
+header{
+    grid-area: header;
+    height:100px;
+    width:100%;
+    text-align:center;
+    justify-content:center;
+    background-image: url(../img/sprinkarriba.png);
+    color:rgb(117, 110, 110);
+    font-size: 50px;
+    text-shadow:30px;
+    text-decoration:solid;
+    margin:0px;
+}
+
+.fa-brands.fa-whatsapp{
+    color:whitesmoke;
+    font-size:20px;
+    align-items:right;
+    justify-content:right;
+    text-align:right;
+}
+
+menu{
+    grid-area: menu;
+    height: 100vh;
+    margin:0px;
+    background-image: url(../img/sprinkarribaleft.png);
+}
+
+article{
+    font-size:20px;
+    color: rgb(102, 83, 83);
+    padding:20px;
+    margin: 1px;
+    border:2px;
+    justify-content: center;
+}
+
+.productos{
+    height:300px;
+    width:250px;
+}
+
+button {
+    padding:20px;
+    text-align: center;
+
+}
+
+i{
+    color: rgb(160, 135, 90);
+    font-size:25px;
+}
+
+h2{
+    color:rgb(102, 83, 83);
+    font-size:25px;
+}
+
+p{
+    color:rgb(102, 83, 83);
+    font-size:20px;
+    display:inline-block;
+}
+
+main{
+    grid-area: main;
+    background-color:rgb(252, 172, 198);
+    height:100vh;
+    margin:0px;
+}
+
+main.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+    "article article article"
+    "article article article";
+    gap: 10px;
+}
+
+.card{
+    height:100px;
+    width:100px;
+    text-align:justify;
+    margin:20px;
+    border:10px;
+}
+
+.textcard {
+    font-size:12px;
+    color: rgb(102, 83, 83);
+}
+
+h5{
+    font-size:14px;
+    color:rgb(102, 83, 83);
+}
+
+article{
+    background-color: white;
+    text-align: center;
+    justify-content:center;
+    padding:0px;
+}
+
+button{
+    background-color:rgb(250, 177, 202);
+    color: rgb(104, 103, 103);
+    border-color:rgb(250, 177, 202);
+}
+ 
+.fa-brands.fa-instagram{
+    color:rgb(104, 103, 103);
+}
+
+.fa-brands.fa-facebook{
+    color:rgb(104, 103, 103);
+}
+
+footer{
+    grid-area: footer;
+    height:70px;
+    background-image: url(../img/sprinkarriba.png);
+    text-align:center;
+    color:rgb(104, 103, 103);
+    font-size:20px;
+    align-items:center;
+    justify-content:center;
+    margin:0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto 80%;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+    gap: 0px;
+}
